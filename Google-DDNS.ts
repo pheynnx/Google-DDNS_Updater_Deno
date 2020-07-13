@@ -86,6 +86,7 @@ for (let i = 0; i < domains.length; i++) {
       );
       break;
   }
-  // Clears console color without new line
-  Deno.stdout.write(new TextEncoder().encode(clc.reset.text('')));
 }
+
+// Clears console color without new line
+Deno.stdout.write(new TextEncoder().encode(clc.reset.text('')));
