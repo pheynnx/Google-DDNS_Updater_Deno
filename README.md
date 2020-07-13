@@ -30,4 +30,4 @@ D2_PASS=
 
 #### Add as many sets of variables you need for as many domains you need updated
 
-#### Make sure to adjustthe domains array to reflect your number of domains
+#### Make sure to adjust the domains array to reflect your number of domains
