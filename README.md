@@ -39,4 +39,4 @@ deno run --allow-read --allow-net Google-DDNS.ts
 
 `pm2 start Google-DDNS.ts --interpreter="deno" --interpreter-args="run -A" --no-autorestart --instances 1 --cron "*/30 * * * *" --name DDNS-Deno`
 
-#### This with rerun the script every 30 minutes; adjust the `*/30 * * * *` part to change the frequency
+#### This will rerun the script every 30 minutes; adjust the `*/30 * * * *` part to change the frequency
