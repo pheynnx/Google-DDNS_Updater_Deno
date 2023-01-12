@@ -40,3 +40,4 @@ deno run --allow-read --allow-net Google-DDNS.ts
 `pm2 start Google-DDNS.ts --interpreter="deno" --interpreter-args="run -A" --no-autorestart --instances 1 --cron "*/30 * * * *" --name DDNS-Deno`
 
 - This will rerun the script every 30 minutes; adjust the `*/30 * * * *` part to change the frequency
+- For help or mor info on how to control timing on a cronjob -> https://crontab.guru/
