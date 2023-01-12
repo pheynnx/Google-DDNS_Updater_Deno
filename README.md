@@ -34,3 +34,9 @@ deno run --allow-read --allow-net Google-DDNS.ts
 - Deno
 - Base64
 - Color
+
+## How to run it with PM2 in a cron job
+
+`pm2 start Google-DDNS.ts --interpreter="deno" --interpreter-args="run -A" --no-autorestart --instances 1 --cron "*/30 * * * *" --name DDNS-Deno`
+
+#### This with rerun the script every 30 minutes; adjust the `*/30 * * * *` part to change the frequency
